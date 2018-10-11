@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Lab5" verbose="1">
+    <test name="test">
+        <classes>
+            <class name="Lab5.Lab5Test">
+                <methods>
+                    <include name="Lab5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
